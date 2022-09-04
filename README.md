@@ -1,5 +1,5 @@
 # API Books project with admin feature V1.0
-Chech the Documentation in : 
+Check the Documentation in : 
 This project was made from A to Z by Omar Aboelfetouh
 Linkedin : 
 
@@ -12,10 +12,10 @@ Linkedin :
 
 ## the admin tool
 - Add books 
-NOTE : the admin cannot have the regular user's premission, FIX THAT
+NOTE: the admin cannot have the regular user's permission, FIX THAT
 
 ## tasks
-1 - creat the models : Admin, user, book
+1 - create the models: Admin, user, book
 DONE
 
 2 - Create the Database of books, users, and admins
@@ -30,7 +30,7 @@ DONE
 5 - Create APIs: Get (All books, Specific book with ID, All comments/reviews of 1 book)
 DONE
 
-6- Create a cach datastructure to store the Comments of each book
+6- Create a cach data structure to store the Comments of each book
 DONE
 
 7 - Do better Documentation :))
@@ -45,20 +45,20 @@ you create a schema first
 
 2
 Create the login function that returns the token ( the path has to be '/token')
-the login function verifies thay user and if it exists in the DB it returns the token which you can use in the app
+the login function verifies the user and if it exists in the DB it returns the token which you can use in the app
 
 3
-creat a get_user() depency that returns your user and depends on the token :)) 
-it wont return any user without that token 
+create a get_user() dependency that returns your user and depends on the token :)) 
+it won't return any user without that token 
 It returns the user from the right data table 
 
 5
-Creat your apis that depends on the user
-SO those APIs wont work without a user, and  a user wont be here without a token, and a token needs to login, and the login  verify you username and passcode :))
+Create your APIs that depends on the user
+So those APIs won't work without a user and  a user won't be here without a token, and a token needs to login, and the login verifies you username and passcode :))
 
 # API Books project with admin feature V1.1
 ## problems in v1.0
-- Cant Use the admin tools, the admin doesnt work, incomplete
+- Can't Use the admin tools, the admin doesn't work, and incomplete
 - Add some APIs
     Get data about books
-    Make users add books to be approaved by the admin!
+    Make users add books to be approved by the admin!
