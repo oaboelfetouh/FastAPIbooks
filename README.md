@@ -1,7 +1,5 @@
 # API Books project with admin feature V1.0
-Check the Documentation in : 
-This project was made from A to Z by Omar Aboelfetouh
-Linkedin : 
+Made by : https://www.linkedin.com/in/omar-aboelfetouh/
 
 # About the project
 ## the regular tool
